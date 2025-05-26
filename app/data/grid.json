@@ -1,0 +1,352 @@
+{
+  "CPA1403": {
+    "name": "Física Geral I",
+    "period": 1,
+    "prerequisites": []
+  },
+  "CPA1404": {
+    "name": "Física Experimental I",
+    "period": 1,
+    "prerequisites": []
+  },
+  "CPA1405": {
+    "name": "Cálculo I",
+    "period": 1,
+    "prerequisites": []
+  },
+  "CPA1406": {
+    "name": "Geometria Analítica",
+    "period": 1,
+    "prerequisites": []
+  },
+  "CPA1407": {
+    "name": "Algoritmos e Programação",
+    "period": 1,
+    "prerequisites": []
+  },
+  "CPA1401": {
+    "name": "Introdução à Engenharia de Computação",
+    "period": 1,
+    "prerequisites": []
+  },
+  "CPA1402": {
+    "name": "Metodologia Científica",
+    "period": 1,
+    "prerequisites": []
+  },
+  "CPA1408": {
+    "name": "Física Geral II",
+    "period": 2,
+    "prerequisites": []
+  },
+  "CPA1409": {
+    "name": "Física Experimental II",
+    "period": 2,
+    "prerequisites": []
+  },
+  "CPA1410": {
+    "name": "Cálculo II",
+    "period": 2,
+    "prerequisites": ["CPA1405"]
+  },
+  "CPA1411": {
+    "name": "Álgebra Linear",
+    "period": 2,
+    "prerequisites": ["CPA1406"]
+  },
+  "CPA1412": {
+    "name": "Química Tecnológica Geral",
+    "period": 2,
+    "prerequisites": []
+  },
+  "CPA1413": {
+    "name": "Química Tecnológica Geral Experimental",
+    "period": 2,
+    "prerequisites": []
+  },
+  "CPA1414": {
+    "name": "Lógica para Computação",
+    "period": 2,
+    "prerequisites": []
+  },
+  "CPA1415": {
+    "name": "Física Geral III",
+    "period": 3,
+    "prerequisites": ["CPA1410"]
+  },
+  "CPA1416": {
+    "name": "Física Experimental III",
+    "period": 3,
+    "prerequisites": []
+  },
+  "CPA1417": {
+    "name": "Cálculo III",
+    "period": 3,
+    "prerequisites": ["CPA1405", "CPA1410"]
+  },
+  "CPA1418": {
+    "name": "Desenho Técnico",
+    "period": 3,
+    "prerequisites": []
+  },
+  "CPA1419": {
+    "name": "Probabilidade e Estatística",
+    "period": 3,
+    "prerequisites": []
+  },
+  "CPA1420": {
+    "name": "Mecânica dos Sólidos",
+    "period": 3,
+    "prerequisites": ["CPA1403"]
+  },
+  "CPA1421": {
+    "name": "Estrutura de Dados I",
+    "period": 3,
+    "prerequisites": ["CPA1407"]
+  },
+  "CPA1422": {
+    "name": "Cálculo Numérico",
+    "period": 4,
+    "prerequisites": ["CPA1410", "CPA1414", "CPA1411"]
+  },
+  "CPA1423": {
+    "name": "Fenômenos de Transporte",
+    "period": 4,
+    "prerequisites": ["CPA1408", "CPA1415"]
+  },
+  "CPA1424": {
+    "name": "Sistemas digitais",
+    "period": 4,
+    "prerequisites": []
+  },
+  "CPA1425": {
+    "name": "Sistemas Digitais Experimental",
+    "period": 4,
+    "prerequisites": []
+  },
+  "CPA1427": {
+    "name": "Circuitos Elétricos",
+    "period": 4,
+    "prerequisites": ["CPA1415"]
+  },
+  "CPA1428": {
+    "name": "Circuitos Elétricos Experimental",
+    "period": 4,
+    "prerequisites": ["CPA1415"]
+  },
+  "CPA1426": {
+    "name": "Estrutura de Dados II",
+    "period": 4,
+    "prerequisites": ["CPA1421"]
+  },
+  "CPA1429": {
+    "name": "Arquitetura e Organização de Computadores",
+    "period": 4,
+    "prerequisites": []
+  },
+  "CPA1436": {
+    "name": "Programação I",
+    "period": 5,
+    "prerequisites": ["CPA1407"]
+  },
+  "CPA1431": {
+    "name": "Microcontroladores",
+    "period": 5,
+    "prerequisites": ["CPA1424", "CPA1407"]
+  },
+  "CPA1432": {
+    "name": "Microcontroladores Experimental",
+    "period": 5,
+    "prerequisites": ["CPA1424", "CPA1407"]
+  },
+  "CPA1433": {
+    "name": "Banco de Dados",
+    "period": 5,
+    "prerequisites": []
+  },
+  "CPA1434": {
+    "name": "Eletrônica Básica",
+    "period": 5,
+    "prerequisites": ["CPA1415"]
+  },
+  "CPA1435": {
+    "name": "Eletrônica Básica Experimental",
+    "period": 5,
+    "prerequisites": ["CPA1415"]
+  },
+  "CPA1430": {
+    "name": "Matemática Discreta",
+    "period": 5,
+    "prerequisites": ["CPA1407"]
+  },
+  "CPA1437": {
+    "name": "Sistemas e Sinais",
+    "period": 5,
+    "prerequisites": ["CPA1417", "CPA1411"]
+  },
+  "CPA1438": {
+    "name": "Programação II",
+    "period": 6,
+    "prerequisites": ["CPA1436"]
+  },
+  "CPA1439": {
+    "name": "Legislação, Ética e Sociedade",
+    "period": 6,
+    "prerequisites": []
+  },
+  "CPA1440": {
+    "name": "Teoria da Computação",
+    "period": 6,
+    "prerequisites": []
+  },
+  "CPA1441": {
+    "name": "Gestão de Projetos",
+    "period": 6,
+    "prerequisites": []
+  },
+  "CPA1442": {
+    "name": "Sistemas Operacionais",
+    "period": 6,
+    "prerequisites": []
+  },
+  "CPA1443": {
+    "name": "Engenharia de software",
+    "period": 6,
+    "prerequisites": []
+  },
+  "CPA1444": {
+    "name": "Redes de Computadores I",
+    "period": 7,
+    "prerequisites": []
+  },
+  "CPA1445": {
+    "name": "Comunicação de dados",
+    "period": 7,
+    "prerequisites": []
+  },
+  "CPA1446": {
+    "name": "Conservação dos Recursos Naturais",
+    "period": 7,
+    "prerequisites": []
+  },
+  "CPA1447": {
+    "name": "Projeto Integrador I",
+    "period": 7,
+    "prerequisites": ["CPA1443", "CPA1434", "CPA1441"]
+  },
+  "CPA1448": {
+    "name": "Redes de Computadores II",
+    "period": 8,
+    "prerequisites": ["CPA1444"]
+  },
+  "CPA1449": {
+    "name": "Sistemas Inteligentes I",
+    "period": 8,
+    "prerequisites": []
+  },
+  "CPA1450": {
+    "name": "Segurança da Informação",
+    "period": 8,
+    "prerequisites": []
+  },
+  "CPA1451": {
+    "name": "Processamento Digital de Sinais",
+    "period": 8,
+    "prerequisites": []
+  },
+  "CPA1452": {
+    "name": "Sistemas Embarcados",
+    "period": 9,
+    "prerequisites": []
+  },
+  "CPA1453": {
+    "name": "Sistemas Inteligentes II",
+    "period": 9,
+    "prerequisites": ["CPA1449"]
+  },
+  "CPA1454": {
+    "name": "Segurança do Trabalho",
+    "period": 9,
+    "prerequisites": []
+  },
+  "CPA1455": {
+    "name": "Projeto Integrador II",
+    "period": 9,
+    "prerequisites": ["CPA1447"]
+  },
+  "CPA1456": {
+    "name": "Engenharia Econômica e Empreendedorismo",
+    "period": 9,
+    "prerequisites": []
+  },
+  "CPA1457": {
+    "name": "Sistemas distribuídos",
+    "period": 9,
+    "prerequisites": []
+  },
+  "CPA1460": {
+    "name": "Libras",
+    "period": null,
+    "prerequisites": []
+  },
+  "CPA1461": {
+    "name": "Desenho Técnico Avançado",
+    "period": null,
+    "prerequisites": []
+  },
+  "CPA1462": {
+    "name": "Fundamentos da Ciência dos Materiais",
+    "period": null,
+    "prerequisites": []
+  },
+  "CPA1463": {
+    "name": "Organização Industrial",
+    "period": null,
+    "prerequisites": []
+  },
+  "CPA1464": {
+    "name": "Contabilidade Gerencial e Custos",
+    "period": null,
+    "prerequisites": []
+  },
+  "CPA1465": {
+    "name": "Eletrônica Industrial",
+    "period": null,
+    "prerequisites": []
+  },
+  "CPA1466": {
+    "name": "Sistemas Integrados de Manufatura",
+    "period": null,
+    "prerequisites": []
+  },
+  "CPA1467": {
+    "name": "Projeto de Fontes Chaveadas",
+    "period": null,
+    "prerequisites": []
+  },
+  "CPA1468": {
+    "name": "Conservação de Energia",
+    "period": null,
+    "prerequisites": []
+  },
+  "CPA1469": {
+    "name": "Interface Homem Computador",
+    "period": null,
+    "prerequisites": []
+  },
+  "CPA1470": {
+    "name": "Programação Paralela e Distribuída",
+    "period": null,
+    "prerequisites": []
+  },
+  "CPA1471": {
+    "name": "Introdução a Robótica Industrial",
+    "period": null,
+    "prerequisites": []
+  },
+  "CPA1473": {
+    "name": "Orientação a Objetos",
+    "period": null,
+    "prerequisites": []
+  }
+}
