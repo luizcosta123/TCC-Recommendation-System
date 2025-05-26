@@ -56,24 +56,24 @@ def map_responses(df):
             continue
 
         if 'aprovado na disciplina' in col:
-            nova_coluna = df[col].map(approved_map)
-            nova_coluna.name = f"Você foi aprovado - {discipline_code}"
-            processed_columns.append(nova_coluna)
+            new_column = df[col].map(approved_map)
+            new_column.name = f"Você foi aprovado - {discipline_code}"
+            processed_columns.append(new_column)
 
         elif 'grau de dificuldade' in col:
-            nova_coluna = df[col].map(difficulty_map)
-            nova_coluna.name = f"Dificuldade - {discipline_code}"
-            processed_columns.append(nova_coluna)
+            new_column = df[col].map(difficulty_map)
+            new_column.name = f"Dificuldade - {discipline_code}"
+            processed_columns.append(new_column)
 
         elif 'considera o assunto' in col:
-            nova_coluna = df[col].map(interest_map)
-            nova_coluna.name = f"Interesse - {discipline_code}"
-            processed_columns.append(nova_coluna)
+            new_column = df[col].map(interest_map)
+            new_column.name = f"Interesse - {discipline_code}"
+            processed_columns.append(new_column)
 
         elif 'importância' in col:
-            nova_coluna = df[col].map(importance_map)
-            nova_coluna.name = f"Importância - {discipline_code}"
-            processed_columns.append(nova_coluna)
+            new_column = df[col].map(importance_map)
+            new_column.name = f"Importância - {discipline_code}"
+            processed_columns.append(new_column)
 
     return pd.concat(processed_columns, axis=1)
 
@@ -100,4 +100,4 @@ with open("data/columns.txt", "w", encoding="utf-8") as f:
     for col in df_numeric.columns:
         f.write(f"{col}\n")
 
-print("Modelo K-means treinado!")
+print("K-means model trained!")
