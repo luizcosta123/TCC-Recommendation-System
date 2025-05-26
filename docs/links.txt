@@ -1,0 +1,5 @@
+Documentação FastAPI:
+https://fastapi.tiangolo.com/pt/#sem-as-dependencias-standard
+
+Ativar ambiente virtual:
+.venv\Scripts\Activate.ps1
