@@ -79,13 +79,11 @@ def map_responses(df):
 
 df_numeric = map_responses(df_clean)
 
-# Se não for respondido é preenchido com 0
-df_numeric = df_numeric.fillna(0)
 scaler = StandardScaler()
 df_scaled = pd.DataFrame(scaler.fit_transform(df_numeric), columns=df_numeric.columns)
 
-# Treina o modelo k-means (k=2)
-n_clusters = 2
+# Treina o modelo k-means (k=3)
+n_clusters = 3
 kmeans = KMeans(n_clusters=n_clusters, random_state=42)
 kmeans.fit(df_scaled)
 
