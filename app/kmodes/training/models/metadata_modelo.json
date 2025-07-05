@@ -1,0 +1,14 @@
+{
+    "training_date": "2025-06-08 23:53:06",
+    "n_clusters": 3,
+    "n_amostras": 23,
+    "n_features": 280,
+    "cost": 2238.0,
+    "n_init": 10000,
+    "init_method": "Huang",
+    "cluster_sizes": [
+        9,
+        4,
+        10
+    ]
+}
