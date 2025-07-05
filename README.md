@@ -61,7 +61,7 @@ Os comandos a seguir devem ser executados a partir do diretório raiz do projeto
 Para treinar o modelo K-Modes, execute o script de treinamento. O modelo, os clusters e os metadados serão salvos na pasta `app/kmodes/training/models/`.
 
 ```bash
-python app/kmodes/training/train_kmodes.py
+python app/kmodes/training/kmodes_training.py
 ```
 
 ### 2. Executando os Scripts de Análise
